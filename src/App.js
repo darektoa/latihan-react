@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Abdul Fattah';
+  const grade = "XI - RPL"
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <p>{name}</p>
+        <p>{grade}</p>
       </header>
     </div>
   );
